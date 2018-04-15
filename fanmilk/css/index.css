@@ -1,0 +1,153 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background: url(images.jpg);
+}
+#wrapper{
+	background-color:White;
+	border:2px solid Black;
+	min-height:600px;
+	margin-bottom:10px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:10px;
+	width:80%;
+}
+#header{
+	background: url(index.png);
+	height:120px;
+	width:100%;
+}
+#header img{
+	width:150px;
+	transition:width 0.4s ease-in-out;
+}
+#nav{
+	margin-top:7.5px;
+	float:right;
+	width:80%;
+}
+#nav ul{
+	list-style:none;
+}
+#nav ul li{
+	float:left;
+	font-weight:bold;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	text-transform:uppercase;
+	position:relative;
+	width:160px;
+    z-index:1; 
+}
+#nav ul li a{
+	text-decoration:none;
+	display:block;
+	color:white;
+}
+#nav ul li a:hover:not(.active){
+	 background:LightBlue;
+	 color:black;
+}
+#nav ul ul{
+	display:none;
+	position:absolute;
+}
+#nav ul ul li{
+	background:black;
+	width:200px;
+}
+#nav ul li:hover > ul{
+	display:block;
+}
+#nav ul ul ul{
+	position:absolute;
+	margin-left:100px;
+	top:0px;
+}
+#nav ul ul ul li{
+	background:black;
+}
+.right{
+	float:right;
+}
+.left{
+	float:left;
+}
+#container{
+	
+}
+#p{
+	background:blue;
+	text-align:right;
+}
+#banner{
+	border-top:2px solid YellowGreen;
+	border-bottom:2px solid YellowGreen;
+	height:600px;
+	width:100%;
+	overflow:hidden;
+}
+#banner ul{
+	list-style:none;
+	position:relative;
+	width:3237px;
+	animation:slider 20s ease-in-out infinite;
+}
+#banner ul:hover{
+	animation-play-state:paused;
+}
+#banner ul li{
+	float:left;
+	position:relative;
+}
+#banner ul li img {
+	height:600px;
+	width:1079px;
+}
+@keyframes slider{
+	0%{left:0px;}
+	33%{left:-1079px;}
+	66%{left:-2158px;}
+}
+#img{
+	margin-left:150px;
+	margin-right:50px;
+}
+#img figure{
+	color:white;
+	float:left;
+	padding:10px;
+	text-align:center;
+	font-weight:bold;
+}
+p{
+	color:white;
+}
+#footer{
+	float:left;
+	background-color:LightBlue;
+	padding:2%;
+	font-size:20px;
+	width:96%;
+	margin-bottom:10px;
+}
+a{
+	text-decoration:none;
+	text-align:center;
+}
+h1{
+	background: url(bg.gif);
+}
+.img{
+	left:0px;
+	bottom:0px;
+	position:fixed;
+	width:190px;
+}
+p{
+	text-align:center;
+}

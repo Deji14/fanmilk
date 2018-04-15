@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+#wrapper{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2%;
+	background:LightGrey;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center center;
+	min-height:700px;
+	padding:5%;
+}
+table{
+	border:1px Solid Black;
+	width:500px;
+	border-spacing:0px;
+	empty-cells:hide;
+	border-collapse:collapse;
+}
+th, td{
+	padding:10px;
+	border:1px solid black;
+}
+th.top{
+	background:RoyalBlue;
+	border-top:2px solid Black;
+	border-bottom:2px solid black;
+	text-transform:uppercase;
+}
+.even{
+	background:grey;
+}
+tr:hover{
+	background:lightblue;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fan Milk</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		<link href="images/icon.ico" type="images/x-icon" rel="shorcut icon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	</head>
+	<body>
+		<a href="index.html"><img src="images/images.png">
+		<div id="wrapper">
+			<!-- start of the header section -->
+			<div id="header">
+				<img src="images/LOGO.png" />
+				<!-- start of the nav section -->
+								<div id="nav">
+				<ul>
+					<li><a href="index.html">Who we are</a>
+						<ul>
+							<li><a href="history.html">History</a></li> 
+							<li><a href="company.html">Company Profile</a></li>
+							<li><a href="values.html">Our Mission & Vision</a></li>
+							<li><a href="csr.html">CSR</a></li> 
+							<li><a href="relations.html">Investor Relations</a></li> 
+						</ul>
+					</li>
+					<li><a href="About.html">Our Products</a>
+						<ul>
+						<li><a href="contact.html">All Products</a></li>
+						<li><a href="contact.html">Health Benefits</a></li> 
+						<li><a href="contact.html">Recipes</a></li> 
+					<li><a href="Contact.html">Media</a></li>
+						</ul>
+					</li>
+					<li><a href="contact.html">Customer Care</a>
+						<ul>
+							<li><a href="contact.html">Franchise Holder</a></li>
+							<li><a href="contact.html">Our Distributors</a></li> 
+							<li><a href="faq.html">FAQ</a></li> 
+							<li><a href="contact.html">Contacts</a></li> 
+							<li><a href="Email.html">Email us</a></li> 
+						</ul>
+					</li>
+					<li><a href="Services.html">Careers</a></li>
+					<div class="right">
+					<li><a href="login.html">Log In</a></li>
+					<li><a href="Search.html">Orders</a></li>
+					</div>
+			</div>
+			<!-- end of the nav section -->
+			</div>
+
+			<!-- end of the header section -->
+		
+			
+			<!-- start of the container section -->
+			<div id="container">
+				<div id="banner">
+					<ul>
+						<li><img src="images/banner1.png">
+						
+						</li>
+						<li><img src="images/banner2.png">
+							
+						</li>
+						<li><img src="images/banner3.png">
+							
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- end of the container section -->
+		
+			<!-- start of the footer section -->
+			<div id="footer">
+				<p>Djsoft</p>
+		
+			</div>
+			<!-- end of the footer section -->
+		</div>
+	</body>
+</html>
